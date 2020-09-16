@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+        <TextView
+            android:id="@+id/playerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_weight="100"
+            />
+
+        <TextView
+            android:id="@+id/playerScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="20sp"
+            android:layout_weight="100"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/playerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="20sp"
+            android:layout_weight="100"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:background="@android:drawable/ic_delete" />
+</LinearLayout>

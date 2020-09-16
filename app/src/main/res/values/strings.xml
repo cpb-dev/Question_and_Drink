@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Question and Drink</string>
+
+    <!-- Home Page -->
+    <string name="play">PLAY NOW</string>
+    <string name="how">HOW TO PLAY</string>
+    <string name="opts">SETTINGS</string>
+
+    <!-- Players Page -->
+    <string name="addtitle">Add Players</string>
+    <string name="add">Add</string>
+    <string name="del">Delete</string>
+    <string name="ready">Ready to Play</string>
+    <string name="empty">No Names Inserted</string>
+    <string name="insert">Insert Name</string>
+
+    <!-- General -->
+    <string name="cont">Continue</string>
+    <string name="sel">Choose Player</string>
+
+    <!-- Quiz Page -->
+    <string name="qno">Question Number #</string>
+    <string name="topic">Question Topic</string>
+    <string name="ques">Full question goes here</string>
+
+    <!-- Answer Page -->
+    <string name="player">Player\'s Name</string>
+    <string name="right">Correct</string>
+    <string name="wrong">Incorrect</string>
+    <string name="answer">Answer:</string>
+    <string name="ans">Questions answer goes here</string>
+
+    <!-- Drinks Page -->
+    <string name="name">Players Name</string>
+    <string name="drink">Drinks challenge</string>
+
+    <!-- Party Page -->
+    <string name="party">challenge for the group goes here</string>
+    <string name="loser">Choose Loser</string>
+
+    <!-- Challenge Page -->
+    <string name="fail">Forfeit</string>
+    <string name="comp">completed</string>
+
+</resources>

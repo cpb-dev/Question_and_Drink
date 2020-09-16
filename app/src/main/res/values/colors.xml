@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#197278</color>
+    <color name="colorPrimaryDark">#C44536</color>
+    <color name="colorAccent">#EDEDD4</color>
+    <color name="challengebg">#FFED00</color>
+    <color name="homepage">#A3C9A8</color>
+</resources>
