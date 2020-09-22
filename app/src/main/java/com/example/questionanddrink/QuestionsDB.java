@@ -45,7 +45,7 @@ public class QuestionsDB extends SQLiteOpenHelper {
     }
 
     public void populateQuiz(){
-        Question q1 = new Question("What is the capital of England?", "London", false);#
+        Question q1 = new Question("What is the capital of England?", "London", false);
         addQuestion(q1);
         Question q2 = new Question("What's Conor's middle name?", "Patrick", false);
         addQuestion(q2);
