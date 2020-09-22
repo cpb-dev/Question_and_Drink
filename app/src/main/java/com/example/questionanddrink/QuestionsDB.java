@@ -63,7 +63,7 @@ public class QuestionsDB extends SQLiteOpenHelper {
 
     public void unaskedQuestions(){
         db = getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COL4 + " = FALSE", null)
+        Cursor c = db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COL4 + " = FALSE", null);
     }
 
 }
