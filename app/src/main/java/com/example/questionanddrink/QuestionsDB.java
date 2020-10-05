@@ -66,4 +66,9 @@ public class QuestionsDB extends SQLiteOpenHelper {
         Cursor c = db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COL4 + " = FALSE", null);
     }
 
+    public void endGame(){
+        //This function will be used to refresh the database at the end of a game
+
+    }
+
 }
